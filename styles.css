@@ -1,0 +1,16 @@
+body {
+    background-image: url("dan-freeman-7Zb7kUyQg1E-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+.namecard {
+    background-color: rgba(0,0,0,0.3);
+    color:white;
+}
+
+.left-container {
+max-width: 700px;
+}

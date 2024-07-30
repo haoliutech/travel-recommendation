@@ -1,0 +1,81 @@
+{
+    "countries": [
+      {
+        "id": 1,
+        "name": "Australia",
+        "cities": [
+          {
+            "name": "Sydney, Australia",
+            "imageUrl": "https://unsplash.com/photos/ZXlfq5mExMs/download?ixid=M3wxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNzIyMzE4MjAzfA&force=true&w=640",
+            "description": "A vibrant city known for its iconic landmarks like the Sydney Opera House and Sydney Harbour Bridge."
+          },
+          {
+            "name": "Melbourne, Australia",
+            "imageUrl": "https://unsplash.com/photos/iFdPrhOPI_E/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8NHx8TWVsYm91cm5lfGVufDB8fHx8MTcyMjI2MTI3OXww&force=true&w=640",
+            "description": "A cultural hub famous for its art, food, and diverse neighborhoods."
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Japan",
+        "cities": [
+          {
+            "name": "Tokyo, Japan",
+            "imageUrl": "https://unsplash.com/photos/LNyZ6oLOEOk/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fFRva3lvJTJDJTIwSmFwYW58ZW58MHx8fHwxNzIyMzE3MDUxfDA&force=true&w=640",
+            "description": "A bustling metropolis blending tradition and modernity, famous for its cherry blossoms and rich culture."
+          },
+          {
+            "name": "Kyoto, Japan",
+            "imageUrl": "https://unsplash.com/photos/7ZY1xQZ9u8c/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8N3x8S3lvdG8lMkMlMjBKYXBhbnxlbnwwfHx8fDE3MjIzMTcwNzh8MA&force=true&w=640",
+            "description": "Known for its historic temples, gardens, and traditional tea houses."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "name": "Brazil",
+        "cities": [
+          {
+            "name": "Rio de Janeiro, Brazil",
+            "imageUrl": "https://unsplash.com/photos/OkiDIla7K8Q/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTR8fFJpbyUyMGRlJTIwSmFuZWlyb3xlbnwwfHx8fDE3MjIzMTgwODJ8MA&force=true&w=640",
+            "description": "A lively city known for its stunning beaches, vibrant carnival celebrations, and iconic landmarks."
+          },
+          {
+            "name": "São Paulo, Brazil",
+            "imageUrl": "https://unsplash.com/photos/uth095lCHdM/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8UyVDMyVBM28lMjBQYXVsb3xlbnwwfHx8fDE3MjIyNjA1Njl8MA&force=true&w=640",
+            "description": "The financial hub with diverse culture, arts, and a vibrant nightlife."
+          }
+        ]
+      }
+    ],
+    "temples": [
+      {
+        "id": 1,
+        "name": "Angkor Wat, Cambodia",
+        "imageUrl": "https://plus.unsplash.com/premium_photo-1661963188432-5de8a11f21a7?q=80&w=3540&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "A UNESCO World Heritage site and the largest religious monument in the world."
+      },
+      {
+        "id": 2,
+        "name": "Taj Mahal, India",
+        "imageUrl": "https://images.unsplash.com/photo-1526711657229-e7e080ed7aa1?q=80&w=3425&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "description": "An iconic symbol of love and a masterpiece of Mughal architecture."
+      }
+    ],
+    "beaches": [
+      {
+        "id": 1,
+        "name": "Bora Bora, French Polynesia",
+        "imageUrl": "https://unsplash.com/photos/1IfaGVN2ZAk/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8Qm9yYSUyMEJvcmF8ZW58MHx8fHwxNzIyMzE3OTU0fDA&force=true&w=640",
+        "description": "An island known for its stunning turquoise waters and luxurious overwater bungalows."
+      },
+      {
+        "id": 2,
+        "name": "Copacabana Beach, Brazil",
+        "imageUrl": "https://unsplash.com/photos/SAEtB8c1IG0/download?ixid=M3wxMjA3fDB8MXxzZWFyY2h8M3x8Q29wYWNhYmFuYSUyMEJlYWNofGVufDB8fHx8MTcyMjMxODAyMHww&force=true&w=640",
+        "description": "A famous beach in Rio de Janeiro, Brazil, with a vibrant atmosphere and scenic views."
+      }
+    ]
+  }
+  
