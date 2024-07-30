@@ -1,3 +1,24 @@
+function homeButton() {
+    const content = document.getElementById("content-section")
+    content.innerHTML =
+        `        <div class="left-container">
+            <h1>Explore Dream Destinations</h1>
+            <div class="col-lg-8 px-0">
+                <p class="fs-5">For the final project, you must create functional pages for your travel recommendation website using JavaScript. This website will help users discover ideal destinations based on their preferences.
+
+                    The website uses interactive displays and provides detailed descriptions and multimedia content. It provides users with a comprehensive overview of each destination, aiding them to make informed travel decisions.
+
+                </p>
+                <p>Feel free to Explore our website.</p>
+
+                <hr class="col-1 my-4">
+
+                <a href="#" class="btn btn-primary">Book Now</a>
+            </div>
+        </div>
+        <div class="right-container" id="right-container"></div>`
+}
+
 function aboutus() {
     const content = document.getElementById("content-section")
     content.innerHTML =
@@ -92,7 +113,7 @@ function displayCard(section) {
 }
 
 async function searchKeyword() {
-    const section = document.getElementById("right-container")
+
     let destination = document.getElementById("search-text").value.toLowerCase()
     if (destination.includes("beach")) {
         destination = "beaches"
@@ -109,7 +130,8 @@ async function searchKeyword() {
 
     const response = await fetch(request);
     const destinations = await response.json();
-    section.innerText = ``
+    homeButton()
+    const section = document.getElementById("right-container")
     if (destinations[destination]) {
 
         destinations[destination].forEach((item) => {
